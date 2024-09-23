@@ -12,7 +12,7 @@ const app = express();
 app.use(allowedOrigins);
 
 app.get('/', (_req, res) => {
-    res.send('Hello World!');
+    res.send('Held!');
 });
 
 const http = createServer(app);
